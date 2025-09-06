@@ -1,3 +1,23 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "uselessfacts-python"
 version = "0.1.0"
+requires-python = ">= 3.8"
+maintainers = [
+  {name = "Cheesecake2960"}
+]
+description = "Getting useless facts."
+readme = "README.md"
+license = "MIT"
+license-files = ["LICEN[CS]E.*"]
+keywords = ["facts", "api"]
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.urls]
+Repository = "https://github.com/Cheesecake2960/uselessfacts-python.git"
+Issues = "https://github.com/Cheesecake2960/uselessfacts-python/issues"
